@@ -1,0 +1,144 @@
+body {
+  font-family: 'Russo One', sans-serif;
+}
+
+.App {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://hornm16.files.wordpress.com/2014/06/justice-league.jpg?w=1200') no-repeat center center fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e2e2e2;
+}
+
+.batman {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('http://www.pixelstalk.net/wp-content/uploads/2015/12/Batman-sign-light-city-wallpaper.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.superman {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('http://sdeerwallpaper.com/Cool-Wallpapers/superman-wallpaper-picture-Is-Cool-Wallpapers.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0f579f;
+}
+
+.wonderwoman {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('http://3.bp.blogspot.com/-R_z9uwzidm4/TraEyOXG1dI/AAAAAAAAAIc/QiLzGHpE6RM/s1600/wonder-woman-wallpaper-hd-1-792655.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: yellow;
+}
+
+.flash {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('http://www.pixelstalk.net/wp-content/uploads/2016/08/HD-flash-wallpaper.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: red;
+}
+
+.greenlantern {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://www.comicbookmovie.com/images/wallpaper/221_773.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: green;
+}
+
+.aquaman {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('http://wallpapercave.com/wp/R3Oy5Fy.jpg') no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: orange;
+}
+
+.symbols {
+    height: 150px;
+    width: 150px;
+    margin: 2.3em;
+    float: left;
+}
+
+img {
+    border-radius: 2em;
+    height: 300px;
+    width: 300px;
+    margin: 1em;
+}
+
+.list {
+    width: 70em;
+    margin-top: 12em;
+    margin-left: -5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul {
+    width: 70em;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+span {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+li {
+    margin: auto;
+}
